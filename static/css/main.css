@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #093807dc;
+    --first-color-light: #235a21dc;
+    --white-color: #f0f0f0;
+    --body-font: 'Open Sans', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100
+}
+
+nav {
+    background: rgb(112,164,120);
+    background: linear-gradient(59deg, rgba(112,164,120,1) 0%, rgba(9,83,15,1) 32%, rgba(9,83,15,1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar_brand {
+    color: var(--white-color);
+}
+
 body {
-    margin: 0;
-    font-family: sans-serif;
+    position: relative;
+    margin: var(--header-height) 0 0 0;
+    padding: 0 1rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    transition: .5s
 }
